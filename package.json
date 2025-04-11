@@ -1,0 +1,16 @@
+{
+  "name": "@paulpladziewicz/style-dictionary",
+  "version": "0.0.1",
+  "description": "Defining design tokens for my side projects using YAML.",
+  "license": "ISC",
+  "author": "Paul Pladziewicz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build --verbose --config ./sd.config.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.3",
+    "yaml": "^2.7.1"
+  }
+}
