@@ -1,5 +1,5 @@
 {
-  "name": "@paulpladziewicz/style-dictionary",
+  "name": "@paulpladziewicz/design-tokens",
   "version": "0.0.1",
   "description": "Defining design tokens for my side projects using YAML.",
   "license": "ISC",
