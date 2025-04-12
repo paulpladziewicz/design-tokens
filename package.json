@@ -5,7 +5,10 @@
   "license": "ISC",
   "author": "Paul Pladziewicz",
   "type": "module",
-  "main": "sd.config.js",
+  "files": ["dist"],
+  "main": "dist/variables.css",
+  "style": "dist/variables.css",
+  "sass": "dist/_variables.scss",
   "scripts": {
     "build": "style-dictionary build --verbose --config ./sd.config.js"
   },
