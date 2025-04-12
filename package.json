@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "Paul Pladziewicz",
   "type": "module",
-  "main": "index.js",
+  "main": "sd.config.js",
   "scripts": {
     "build": "style-dictionary build --verbose --config ./sd.config.js"
   },
