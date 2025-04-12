@@ -23,13 +23,29 @@ npm install @paulpladziewicz/design-tokens
 
 After installing the package, you can import the generated design tokens based on your preferred styling approach:
 
-##### SCSS (Recommended for Angular, Sass-based projects)
+##### SCSS
 ```scss
-@use '@paulpladziewicz/design-tokens/dist/variables' as *;
-```
-This makes all the Sass variables available in your stylesheet. You can also alias the import if needed.
+@use '@paulpladziewicz/design-tokens/build/variables' as *;
 
-#### CSS (For plain CSS or tools that support CSS custom properties)
+.button {
+  color: $colors-white;
+  background-color: $colors-orange-500;
+}
+```
+This makes all the Sass variables available in your stylesheet.
+
+You can also alias the import:
+```scss
+@use '@paulpladziewicz/design-tokens/build/variables' as dt;
+
+.button {
+  color: dt.$colors-white;
+  background-color: dt.$colors-orange-500;
+}
+```
+This approach improves clarity and avoids naming collisions.
+
+#### CSS
 ```css
 @import '@paulpladziewicz/design-tokens/dist/variables.css';
 ```
