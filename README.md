@@ -5,62 +5,35 @@
 
 ## Description
 
-`@paulpladziewicz/design-tokens` is a tool for managing and defining design tokens for your side projects. It simplifies token management by utilizing YAML, enabling seamless integration and customization of design systems. With **Style Dictionary** at its core, this project empowers developers and designers to centralize their design language effectively.
-
-## Features
-
-- **Design Token Management**: Define, structure, and manage your design tokens with clarity.
-- **YAML Integration**: Write your tokens in YAML, a human-readable format, for better organization and simplicity.
-- **Style Dictionary Support**: Leverage the power of [Style Dictionary](https://amzn.github.io/style-dictionary) for token transformation and export across platforms.
-- **Custom Builds**: Fine-tune token configurations to suit your projects.
+A set of design tokens for your side projects.
+If you want to extend them or customize them to your needs,
+you can fork or clone this [repository](https://github.com/paulpladziewicz/design-tokens).
 
 ## Getting Started
 
 ### Installation
 
-To install the project locally, use the following command:
+To install the package, use the following command:
 
 ```bash
 npm install @paulpladziewicz/design-tokens
 ```
 
-### Prerequisites
-
-Ensure you have the following prerequisites installed before using this project:
-
-- **Node.js** >= 14.x
-- **npm** >= 6.x
-
 ### Usage
 
-#### Building Design Tokens
+After installing the package, you can import the generated design tokens based on your preferred styling approach:
 
-To build your design tokens, run the following script:
-
-```bash
-npm run build
+##### SCSS (Recommended for Angular, Sass-based projects)
+```scss
+@use '@paulpladziewicz/design-tokens/dist/variables' as *;
 ```
+This makes all the Sass variables available in your stylesheet. You can also alias the import if needed.
 
-This command uses **Style Dictionary** to generate token output based on the configuration in `sd.config.js`. The `--verbose` flag provides detailed logs during the build process.
-
-#### Customizing Tokens
-
-Tokens are written in YAML files, which makes it easy to:
-
-- Define colors, typography, spacing, and other design elements.
-- Create reusable and globally consistent design assets across your applications.
-
-#### Configuration
-
-Update the `sd.config.js` file to customize token settings for your project.
-You can define platforms, formats, and file destinations to tailor the output to your needs.
-
-## Dependencies
-
-This project uses the following dependencies:
-
-- **[Style Dictionary](https://www.npmjs.com/package/style-dictionary)**: Framework to manage design tokens across multiple platforms.
-- **[YAML](https://www.npmjs.com/package/yaml)**: YAML parser and stringifier for JavaScript.
+#### CSS (For plain CSS or tools that support CSS custom properties)
+```css
+@import '@paulpladziewicz/design-tokens/dist/variables.css';
+```
+This will bring in all available custom properties (e.g., --color-primary, --font-size-base) for use directly in your CSS.
 
 ## License
 
