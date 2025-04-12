@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "Paul Pladziewicz",
   "type": "module",
-  "files": ["dist"],
+  "files": ["build"],
   "main": "dist/variables.css",
   "style": "dist/variables.css",
   "sass": "dist/_variables.scss",
