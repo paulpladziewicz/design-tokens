@@ -1,6 +1,6 @@
 {
   "name": "@paulpladziewicz/design-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Defining design tokens for my side projects using YAML.",
   "license": "ISC",
   "author": "Paul Pladziewicz",
