@@ -23,3 +23,41 @@ colors:
       value: '#9c4221'
     900:
       value: '#7b341e'
+  red:
+    100:
+      value: '#fff5f5'
+    200:
+      value: '#fed7d7'
+    300:
+      value: '#feb2b2'
+    400:
+      value: '#fc8181'
+    500:
+      value: '#f56565'
+    600:
+      value: '#e53e3e'
+    700:
+      value: '#c53030'
+    800:
+      value: '#9b2c2c'
+    900:
+      value: '#742a2a'
+  green:
+    100:
+      value: '#f0fff4'
+    200:
+      value: '#c6f6d5'
+    300:
+      value: '#9ae6b4'
+    400:
+      value: '#68d391'
+    500:
+      value: '#48bb78'
+    600:
+      value: '#38a169'
+    700:
+      value: '#2f855a'
+    800:
+      value: '#276749'
+    900:
+      value: '#22543d'

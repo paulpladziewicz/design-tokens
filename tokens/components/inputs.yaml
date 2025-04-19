@@ -1,0 +1,27 @@
+components:
+  input:
+    type: object
+    base:
+      value:
+        padding: '{dimensions.2} {dimensions.3}'
+        borderRadius: '{dimensions.1}'
+        typography: '{text.typography.body}'
+        border: '{borders.heavy}'
+        borderColor: '{colors.orange.300}'
+        background: '{colors.white}'
+        transition: '{transitions.emphasis}'
+    focus:
+      value:
+        borderColor: '{colors.orange.600}'
+        boxShadow: '{shadows.sm}'
+        outline: 'none'
+    disabled:
+      value:
+        background: '{colors.orange.100}'
+        borderColor: '{colors.orange.200}'
+        color: '{colors.orange.400}'
+        cursor: 'not-allowed'
+    error:
+      value:
+        borderColor: '{colors.red.600}'
+        boxShadow: '0 0 0 1px {colors.red.600}'

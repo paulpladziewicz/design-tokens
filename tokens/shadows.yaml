@@ -1,0 +1,18 @@
+shadows:
+  type: shadow
+  sm:
+    value:
+      color: '{colors.black}'
+      offsetX: '{dimensions.0}'
+      offsetY: '{dimensions.1}'
+      blur: '{dimensions.3}'
+  lg:
+    value:
+      color: '{colors.black}'
+      offsetX: '{dimensions.0}'
+      offsetY: '{dimensions.2}'
+      blur: '{dimensions.4}'
+  multi:
+    value:
+      - '{shadows.sm}'
+      - '{shadows.lg}'

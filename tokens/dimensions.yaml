@@ -3,32 +3,38 @@ dimensions:
   0:
     value: 0px
   1:
-    value: 4px
+    value: 1px
   2:
-    value: 8px
+    value: 2px
   3:
-    value: 12px
+    value: 3px
   4:
-    value: 16px
+    value: 4px
   5:
-    value: 20px
+    value: 8px
   6:
-    value: 24px
+    value: 12px
   7:
-    value: 28px
+    value: 16px
   8:
-    value: 32px
+    value: 20px
   9:
-    value: 36px
+    value: 24px
   10:
-    value: 40px
+    value: 32px
   11:
-    value: 44px
+    value: 40px
   12:
     value: 48px
   13:
-    value: 52px
-  14:
     value: 56px
+  14:
+    value: 64px
   15:
-    value: 60px
+    value: 80px
+  16:
+    value: 96px
+  17:
+    value: 112px
+  18:
+    value: 128px
