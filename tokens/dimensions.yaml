@@ -32,5 +32,3 @@ dimensions:
     value: 56px
   15:
     value: 60px
-  max:
-    value: 9999px

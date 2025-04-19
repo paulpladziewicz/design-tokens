@@ -1,10 +1,8 @@
 text:
   fonts:
     type: fontFamily
-    serif:
-      value: Times New Roman, serif
     sans:
-      value: Open Sans, sans-serif
+      value: Poppins, sans-serif
   sizes:
     type: fontSize
     heading:
@@ -13,12 +11,14 @@ text:
       value: '{dimensions.4}'
   weights:
     type: fontWeight
-    light:
-      value: thin
     regular:
-      value: regular
+      value: 400
+    medium:
+      value: 500
+    semiBold:
+      value: 600
     bold:
-      value: extra-bold
+      value: 700
   lineHeights:
     type: number
     normal:
@@ -35,7 +35,7 @@ text:
         lineHeight: '{text.lineHeights.large}'
     body:
       value:
-        fontFamily: '{text.fonts.serif}'
+        fontFamily: '{text.fonts.sans}'
         fontWeight: '{text.weights.regular}'
         fontSize: '{text.sizes.body}'
         lineHeight: '{text.lineHeights.normal}'
